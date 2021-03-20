@@ -13,5 +13,6 @@ public class ThreeMax {
 
     public static void main(String[] args) {
         System.out.println(max(10, 5, 1));
+
     }
 }
