@@ -7,8 +7,8 @@ public class Point {
 
     public static void main(String[] args) {
         double number1 = Point.distance(8, 0, 0, 4);
-        //double number2 = Point.distance(15, 8, 13, 2);
+        double number2 = Point.distance(15, 8, 13, 2);
         System.out.println(number1);
-       // System.out.println(number2);
+        System.out.println(number2);
     }
 }
