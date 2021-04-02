@@ -34,7 +34,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax3To3To4To5Then2() {
+    public void whenMax3To3To4To5Then5() {
         int left = 3;
         int right = 3;
         int left1 = 4;
