@@ -1,5 +1,9 @@
 # используем язык java. Travis CI поддерживает другие языки тоже.
 language: java
+matrix:
+  - JOB="./gradlew build"
+
+script: "$JOB"
 jdk:
   - openjdk14
 
@@ -18,3 +22,4 @@ notifications:
       - nikolaymishakin@yandex.ru
     on_success: never # default: change
     on_failure: always # default: always
+
